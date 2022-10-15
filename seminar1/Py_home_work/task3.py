@@ -21,4 +21,3 @@ if x != 0 and y != 0:
 
 else:
     print('Точка на оси X.' if y != 0 else 'Точка на оси Y.')
-

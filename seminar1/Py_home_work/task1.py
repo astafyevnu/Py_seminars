@@ -12,4 +12,3 @@ if 0 < num < 7:
     print("Yes" if 5 < num < 8 else "No")
 else:
     print("Error")
-

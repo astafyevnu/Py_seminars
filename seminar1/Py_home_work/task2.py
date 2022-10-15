@@ -5,11 +5,11 @@
 # V - аналог or
 # ⋀ - аналог and
 
-for x in [True,False]:
-    for y in [True,False]:
-        for z in [True,False]:
+for x in [True, False]:
+    for y in [True, False]:
+        for z in [True, False]:
             l_part = not (x or y or z)
             r_part = not x and not y and not z
-            print('¬(', x, ' ⋁ ', y, ' ⋁ ', z,') = ¬', x,' ⋀ ¬',y,' ⋀ ¬', z)
+            print('¬(', x, ' ⋁ ', y, ' ⋁ ', z, ') = ¬', x, ' ⋀ ¬', y, ' ⋀ ¬', z)
             print(l_part, ' = ', r_part)
             print(l_part == r_part)
