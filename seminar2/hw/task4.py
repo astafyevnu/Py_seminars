@@ -4,8 +4,8 @@ import random
 n = int(input("input number: "))
 lst = random.sample(range(-n, n), n)
 
-sum =1
-new_lst =[]
+sum = 1
+new_lst = []
 
 with open('file.txt', 'r') as f:
     for i in f:
