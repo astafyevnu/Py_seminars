@@ -10,7 +10,7 @@ new_lst = []
 with open('file.txt', 'r') as f:
     for i in f:
         if -len(lst) <= int(i) < len(lst):
-            sum*= lst[int(i)]
+            sum *= lst[int(i)]
             new_lst.append(lst[int(i)])
 
 print("Sum new list: ", sum if sum != 1 else "Value not found")
