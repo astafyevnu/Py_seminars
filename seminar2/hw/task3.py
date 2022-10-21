@@ -10,6 +10,6 @@ n = int(input("input number N: "))
 lst = []
 sum = 0
 for i in range(1, n+1):
-    f_num = float((1 + 1 / i) ** i)
+    f_num = (1 + 1 / i) ** i
     lst.append(float(f_num))
 print(math.fsum(lst))
