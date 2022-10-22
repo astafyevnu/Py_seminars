@@ -6,6 +6,6 @@
 
 lst = [2, 3, 5, 9, 3]
 count = 0
-for i in range(1, 5, 2):
+for i in range(1, len(lst), 2):
     count += lst[i]
 print(count)
