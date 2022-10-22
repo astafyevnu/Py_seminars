@@ -11,7 +11,7 @@ n = int(input("Input number: "))
 
 s = ""
 
-while n != 0:
+while n:
     s = str(n % 2) + s
     n //= 2
 print(s)
