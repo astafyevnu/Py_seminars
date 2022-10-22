@@ -10,9 +10,10 @@ min = 1
 max = 0
 
 for i in lst:
-    if (i - int(i)) <= min:
-        min = i - int(i)
-    if (i - int(i)) >= max:
-        max = i - int(i)
+    tail = i - int(i)
+    if tail <= min:
+        min = tail
+    if tail >= max:
+        max = tail
 
 print(round(max-min, 2))
