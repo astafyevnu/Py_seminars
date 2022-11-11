@@ -22,8 +22,8 @@ from decimal import Decimal
 n = input("input number: ")
 d = input("round up to: ")
 
-degree = '1.' + "0"*int(d)
+numbers_of_sml = '1.' + "0"*int(d)
 
 num = Decimal(n)
-result = num.quantize(Decimal(str(degree)))
+result = num.quantize(Decimal(str(numbers_of_sml)))
 print('result = ', result)
