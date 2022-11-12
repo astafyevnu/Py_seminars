@@ -21,15 +21,25 @@
 # print(' '.join(new_text))
 
 
-# код с семинара
+# # код с семинара
 
-text = input('Input string: ')
+# text = input('Input string: ')
 
-tmp = []
+# tmp = []
 
-for word in text.split():
-    w = word.lower()
-    if not ('а' in w and 'б' in w and 'в' in w):
-        tmp.append(w)
+# for word in text.split():
+#     w = word.lower()
+#     if not ('а' in w and 'б' in w and 'в' in w):
+#         tmp.append(w)
 
-print(' '.join(tmp))
+# print(' '.join(tmp))
+
+# используя множества
+
+
+input_data = ["подлинный", "реформа", "абв", "обезвоживание"]
+
+ref = set(i for i in input('Input: '))
+
+print(input_data, [data for data in input_data if not ref <=
+      set(data.lower())], sep='\n')
