@@ -1,6 +1,8 @@
 import os
 import csv
 import pandas
+pandas.set_option('display.max_columns', None)
+pandas.set_option('display.width', 200)
 import logger
 import ui
 
